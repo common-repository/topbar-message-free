@@ -1,0 +1,403 @@
+.tbm-free-form-body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tbm-free-form-row{ /*ROW SECTION*/
+  box-sizing: border-box;
+  text-align: left!important;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tbm-free-form-row:hover{ /*ROW SECTION ON HOVER*/
+  background-color: #eeeeee;
+}
+
+.tbm-free-input{
+  width: 100%;
+}
+
+/* Basic Settings - FIELDS*/
+.tbm-free-form-basic-fields{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tbm-free-form-basic-fields label{
+  padding-right: 1em;
+  font-weight: 600;
+}
+
+.tbm-free-form-basic-fields input{
+  padding-left: 2em;
+}
+
+.tbm-free-message-link-row{ /*Section message ang link admin page - order (field class)*/
+  display: flex;
+  flex-direction: column;
+}
+
+.tbm-free-message-link-row label{ /*Section message ang link admin page / CUSTOM INPUT TITLES / (field class)*/
+  padding: 0 1em 1em 0;
+  font-weight: 600;
+}
+
+.tbm-free-messages-admin-row{ /*Section message ang link admin page (row class)*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tbm-free-messages-admin-row td{ /*Section message ang link admin page (row class)*/
+  width: 50%!important;
+}
+
+.tbm-free-customization{ /*Navigationbar (color & sizing )*/
+  display: flex;
+  flex-direction: row;
+}
+
+.tbm-free-customization-row{ /*Navigationbar (color & sizing) (field class)*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tbm-free-customization-row label{ /*Navigationbar (color & sizing) (field class)*/
+  padding: 0 1em 1em 0;
+  font-weight: 600;
+}
+
+.tbm-free-basic-informations{ /*Basic settings navbar*/
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tbm-free-basic-informations th{ /*Basic settings navbar TITLE*/
+  text-align: left!important;
+}
+
+.tbm-free-basic-informations td{ /*Basic settings navbar INPUT CONTAINER*/
+  width: 30%;
+}
+
+.tbm-free-basic-informations td input{ /*Basic settings navbar INPUT*/
+  width: 100%;
+}
+
+.tbm-free-main-admin{
+  display: flex!important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tbm-free-main-admin{ /*MAIN CARD SHADOW*/
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  box-shadow: -4px 3px 45px rgba(0, 0, 0, 0.3);
+}
+
+.tbm-free-flexible{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbm-free-button-row{ /*PADDING & WIDTH OF ALL ROWS*/
+  width: 100%!important;
+  padding-left: 10px!important;
+  padding-right: 20px!important;
+}
+
+.tbm-free-option-title{ /*TITLE CARD SESSION*/tbm-free-basic-informations
+  height: 70px;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0;
+}
+
+.tbm-option-hover{ /*FULL CARD SECTION*/
+  width: 98%;
+  margin-left: 10px;
+}
+
+#tbm-free-submit{ /*SUBMIT DESK BUTTON*/
+  margin-left: 20px;
+}
+
+.tbm-free-button-informations{ /*INFORMATION SECTION ADMIN NAVIGATIONBAR*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tbm-free-button-informations th{
+  width: 100%;
+}
+
+.tbm-free-button-remover-class{
+  z-index: 9999;
+  background-color: transparent;
+  color: #f3f3f3;
+  border-radius: 100px;
+  position: absolute;
+  right: 10px;
+}
+
+.tbm-free-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.tbm-free-header{
+  position: relative;
+}
+
+/*Button navbar*/
+
+#tbm-free-button{
+  transition: 0.3s;
+}
+
+#tbm-free-button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.tbm-free-remover{ /* TopBar Remover button dimensions */
+  height: 25px;
+  width: 25px;
+}
+
+/* On hover "BUY PRO" button
+Admin-page customizations */
+
+.tbm_admin_plugin_title{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items: baseline;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tbm_buy_pro_version_servizitrepuntozero:hover{
+  opacity: 0.8;
+}
+
+.tbm_buy_pro_version_servizitrepuntozero{
+  transition: 0.3s;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #FF9600;
+  border-color: #FF9600;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+#tbm_text_pro_version:focus{
+      box-shadow: none !important;
+    }
+
+#tbm_text_pro_version:hover{
+  text-decoration: underline!important;
+}
+
+#tbm_text_pro_version{
+  width: fit-content;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #484848;
+  font-size: 16px;
+}
+
+.tbm_admin_icon{
+  color: #00CE00;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.tbm_features_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start!important;
+  height: 80%;
+}
+
+.tbm_admin_advertising_title{
+  padding: 0px 10px 10px 0px;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #484848;
+}
+
+.tbm_admin_advertising_subtitle{
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+.tbm_admin_advertising_l_column{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 1px 10px #CDCDCD;
+}
+
+.tbm_admin_pro_picture_container{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 1px 10px #CDCDCD;
+}
+
+.tbm_admin_list_container{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.tbm_admin_list_element{
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 576px){ /* X-Small */
+
+
+  .tbm-free-flexible{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #tbm_free_header{
+    position: relative;
+    height: 40px;
+  }
+
+  .tbm-free-button-remover-container{
+    height: auto!important;
+  }
+
+  p[name="tbm-free-message"]{
+    font-size: 15px!important;
+    white-space: nowrap;
+  }
+
+  .tbm-free-button-remover-container{
+    display: none;
+  }
+
+  #tbm-free-button{
+    margin: 0 1em 0 0;
+    font-size: 15px!important; /*Default for mobile*/
+    text-decoration: none!important;
+    border-radius: 4px!important; /*Default for mobile*/
+    padding: 0 11px;
+    cursor: pointer;
+    border: 0;
+  }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){ /* Small */
+
+  .tbm-free-flexible{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #tbm_free_header{
+    position: relative;
+    height: 40px;
+  }
+
+  .tbm-free-button-remover-container{
+    height: auto!important;
+  }
+
+  p[name="tbm-free-message"]{
+    font-size: 15px!important;
+    white-space: nowrap;
+  }
+
+  .tbm-free-button-remover-container{
+    display: none;
+  }
+
+  #tbm-free-button{
+    margin: 0 1em 0 0;
+    font-size: 15px!important; /*Default for mobile*/
+    text-decoration: none!important;
+    border-radius: 4px!important; /*Default for mobile*/
+    padding: 0 11px;
+    cursor: pointer;
+    border: 0;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){ /* Medium */
+
+  .tbm-free-flexible{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #tbm_free_header{
+    position: relative;
+  }
+
+  .tbm-free-button-remover-container{
+    height: auto!important;
+  }
+
+  p[name="tbm-free-message"]{
+    font-size: 15px!important;
+    white-space: nowrap;
+  }
+
+  #tbm-free-button{
+    margin: 0 1em 0 0;
+    font-size: 15px!important; /*Default for mobile*/
+    text-decoration: none!important;
+    border-radius: 4px!important; /*Default for mobile*/
+    padding: 0 11px;
+    cursor: pointer;
+    border: 0;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){ /* Large */
+
+}
